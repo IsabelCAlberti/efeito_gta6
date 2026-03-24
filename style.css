@@ -16,5 +16,7 @@ body {
   font-size: 120px;
   font-weight: bold;
   background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover;
-
+  -webkit-background-clip: text; /* é pra compatibilidade com navegadores em geral*/
+  background-clip: text; /* recorta a imagem no tamanho do texto*/
+  color: transparent; /* esconde a cor normal do texto */
 }
